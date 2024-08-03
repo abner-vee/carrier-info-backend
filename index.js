@@ -13,7 +13,7 @@ app.use(cors());
 
 // OR Configure CORS with specific options
 app.use(cors({
-    origin: 'https://carrier-info-backend.onrender.com',
+    origin: 'https://carrier-info.netlify.app',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
