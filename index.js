@@ -13,7 +13,7 @@ app.use(cors());
 
 // OR Configure CORS with specific options
 app.use(cors({
-    origin: 'http://localhost:4545',
+    origin: 'https://carrier-info-backend.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization']
 }));
